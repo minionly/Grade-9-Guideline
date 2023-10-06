@@ -51,5 +51,5 @@
   - Mọi thắc mắc xin liên hệ:
     - Email: [cangtin2326@gmail.com](https://mail.google.com/mail/u/0/#inbox?compose=new)
     - Confession: [https://forms.gle/dvByc9UQ2bRsPQHn8](https://docs.google.com/forms/d/e/1FAIpQLSedu5Bv_1IgZNOVydkxB8-jUeACe5iK4bad7hRjxmRClcMq3w/viewform)
-    - Instagram: [__cang_tin_2326__](https://www.instagram.com/__cang_tin_2326__/?fbclid=IwAR3lxLmrPDDuPWglXJbAytabXeAcnOU1CGUnE5hyPA1m6JJjA1Bh1XvxYls)
+    - Instagram: [cang_tin_2326](https://www.instagram.com/__cang_tin_2326__/?fbclid=IwAR3lxLmrPDDuPWglXJbAytabXeAcnOU1CGUnE5hyPA1m6JJjA1Bh1XvxYls)
     - Inbox fanpage: [Căng TIN 2326](https://www.facebook.com/cangtin2326)
