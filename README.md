@@ -19,9 +19,7 @@ toán này mất rất nhiều thời gian để thực hiện. Như kiểu nế
 điện thoại quá dài thì sẽ mất rất nhiều thì giờ để tìm ra được dãy số chính xác (giả
 sử không bị vô hiệu hóa nếu nhập sai).
 Tương tự khi viết chương trình, nếu bạn sử dụng giải thuật vét cạn thì luôn đảm
-bảo tìm được kết quả đúng. Nhưng nếu dữ liệu đầu vào quá lớn sẽ dẫn đến lỗi TLE
-(Time Limit Exceeded - chạy quá thời gian cho phép)
-II. Lý thuyết
+bảo tìm được kết quả đúng. Nhưng nếu dữ liệu đầu vào quá lớn sẽ dẫn đến lỗi TLE(Time Limit Exceeded - chạy quá thời gian cho phép)
 3. Bài toán cụ thể:
 Cho dãy số A có N phần tử (A[i] < 101) nhập từ bàn phím. Tìm dãy con B có M
 phần tử từ dãy A (M <= N < 1001) sao cho tổng các phẩn tử của dãy B lớn nhất có
