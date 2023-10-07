@@ -60,7 +60,7 @@ thể. (Dãy con là những phần tử liên tiếp nhau trong mảng).
   ⟶ Với 2 vòng lặp lồng nhau thì độ phức tạp của bài toán là O(N*M).
 - Code mẫu C++:
   ```c++
-  #include <bits/stdc++.h>
+     #include <bits/stdc++.h>
     using namespace std;
     int a[1005], n, m;
     int ketqua = 0, position = 0;
@@ -71,19 +71,19 @@ thể. (Dãy con là những phần tử liên tiếp nhau trong mảng).
         for (int i=1; i<=n; i++) 
         {
             cin>>a[i];
-            if(i<=m) ketqua += a[i];
+            if (i<=m) ketqua += a[i];
         }
-        for(int i=1; i<=n-m+1; i++)
+        for (int i=1; i<=n-m+1; i++)
         {
             int sum=0;
-            for(int j=1; j<=m; j++) sum += a[j+i-1];
-            if(sum >= ketqua)
+            for (int j=1; j<=m; j++) sum += a[j+i-1];
+            if (sum >= ketqua)
             {
                 ketqua = sum;
                 position = i;
             }
         }
-        for(int i=position; i<=position+m-1; i++) cout<<a[i]<<" ";
+        for (int i=position; i<=position+m-1; i++) cout<<a[i]<<" ";
         return 0;
     }
 
