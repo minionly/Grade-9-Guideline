@@ -20,15 +20,8 @@ toán này mất rất nhiều thời gian để thực hiện. Như kiểu nế
 sử không bị vô hiệu hóa nếu nhập sai).
 Tương tự khi viết chương trình, nếu bạn sử dụng giải thuật vét cạn thì luôn đảm
 bảo tìm được kết quả đúng. Nhưng nếu dữ liệu đầu vào quá lớn sẽ dẫn đến lỗi TLE
-Đã bao giờ bạn có ý định mò mẫm mật khẩu, mã pin thiết bị di động của ai đó và
-thử từng số một chưa? Hay bạn đã từng cố gắng lục tung mọi ngóc ngách trong
-nhà để tìm kiếm thứ gì đó? Thế thì bạn đã biết “vét cạn” rồi đấy!
-I. Mục tiêu bài học
-1 Nắm được khái niệm về “vét cạn” 10%
-2 Vận dụng được “vét cạn” trong mọi bài toán 55%
-3 Biết cải thiện thuật toán để tối ưu hóa code 35%
-II. Lý thuyết
 (Time Limit Exceeded - chạy quá thời gian cho phép)
+II. Lý thuyết
 3. Bài toán cụ thể:
 Cho dãy số A có N phần tử (A[i] < 101) nhập từ bàn phím. Tìm dãy con B có M
 phần tử từ dãy A (M <= N < 1001) sao cho tổng các phẩn tử của dãy B lớn nhất có
