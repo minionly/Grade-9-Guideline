@@ -1,6 +1,5 @@
 # Guildlines for Grade 9
-- [Brute Force](https://github.com/minionly/Grade-9-Guideline/tree/Brute-Force)
-![CTIN](https://i.imgur.com/NylEdcM_d.webp?maxwidth=1520&fidelity=grand)
+  - [Brute Force - Thuật toán vét cạn](https://github.com/minionly/Grade-9-Guideline/tree/Brute-Force)
   ## 1. Giới thiệu tổng quát dự án :
   - Dự án “Guideline for Grade 9” được thành lập bởi các học sinh lớp 10 CTin trường Trung học Phổ thông Gia Định với mục đích hỗ trợ các bạn học sinhcó niềm đam mê với bộ môn Tin học (lập trình), đặc biệt là các em lớp 9 có ý định tham dự kỳ thi Học sinh Giỏi lớp 9 cấp Thành phố và kỳ thi Tuyển sinh 10 THPT Chuyên (môn Tin chuyên).
   - Dự án “Guideline for Grade 9” được thành lập bởi các học sinh lớp 10 CTin trường Trung học Phổ thông Gia Định với mục đích hỗ trợ các bạn học sinh có niềm đam mê với bộ môn Tin học (lập trình), đặc biệt là các em lớp 9 có ý định tham dự kỳ thi Học sinh Giỏi lớp 9 cấp Thành phố và kỳ thi Tuyển sinh
