@@ -61,38 +61,29 @@ thể. (Dãy con là những phần tử liên tiếp nhau trong mảng).
 - Code mẫu C++:
   ```c++
   #include <bits/stdc++.h>
-  using namespace std;
-  
-  long long a[100005], s[100005];
-  
-  int main() {
-      ios_base::sync_with_stdio(0);
-      cin.tie(0);
-      cout.tie(0);
-
-    freopen("maxcross.in","r",stdin);
-    freopen("maxcross.out","w",stdout);
-
-    int n,k,b;
-
-    cin>>n>>k>>b;
-
-    for(int i=1;i<=b;i++){
-        int x;
-        cin>>x;
-        a[x] = 1;
+    using namespace std;
+    int a[1005], n, m;
+    int ketqua = 0, position = 0;
+    
+    int main() 
+    {
+        cin>>n>>m;
+        for (int i=1; i<=n; i++) 
+        {
+            cin>>a[i];
+            if(i<=m) ketqua += a[i];
+        }
+        for(int i=1; i<=n-m+1; i++)
+        {
+            int sum=0;
+            for(int j=1; j<=m; j++) sum += a[j+i-1];
+            if(sum >= ketqua)
+            {
+                ketqua = sum;
+                position = i;
+            }
+        }
+        for(int i=position; i<=position+m-1; i++) cout<<a[i]<<" ";
+        return 0;
     }
-
-    for(int i=1;i<=n;i++){
-        s[i] = s[i-1] + a[i];
-    }
-
-    long long ans = INT_MAX;
-    for(int i=k;i<=n;i++){
-        ans = min(ans, s[i] - s[i - k]);
-    }
-    cout<<ans;
-
-    return 0;
-  }
 
